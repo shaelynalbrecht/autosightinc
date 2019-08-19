@@ -319,7 +319,7 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* font-size: 4vh; */
-    align-items: flex-end;
+    /* align-items: flex-end; */
     margin-right: 0;
     margin-top: 0;
   }
@@ -395,7 +395,7 @@ h1 {
     margin-right: 2%;
     margin-top: 2%;
     font-family: Helvetica, sans-serif;
-    font-size: 4vh;
+    font-size: 3vh;
     font-weight: lighter;
     text-align: center;
   }
