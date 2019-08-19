@@ -1,0 +1,450 @@
+body {
+  background-color: #253841;
+}
+
+.overall_container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  /* margin-left: 2%;
+  margin-right: 2%; */
+}
+
+.header_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../images/AutoSightBanner2.jpg");
+  /* background-image: url("../images/AutoSightBanner.jpg"); */
+  background-size: auto;
+  padding-bottom: 2vh;
+}
+.content_container {
+  display: flex;
+  flex-direction: column;/* font-size: 4vh; */
+  /* align-items: flex-end; */
+  margin-right: 0;
+  margin-top: 0;
+}
+
+p {
+  color: white;
+  font-family: Helvetica;
+}
+
+.logo {
+  width: 50%;
+  height: 50%;
+}
+
+.sunroof_pics {
+  width: 80vh;
+  height: 80vh;
+  /* margin-top: -10; */
+  /* margin-left: 15%; */
+  margin-left: 5%;
+  align-self: center;
+}
+
+.list_text {
+  margin-left: 4%;
+}
+
+ul, .list_text p{
+  padding-left: 5%;
+  font-family: sans-serif;
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+li {
+  margin-bottom: 1%;
+  color: #AB131D;
+  font-family: Arial Black;
+  font-weight: bold;
+  text-shadow: 0px 0px 3px #B5B7B8;
+  font-size: 180%;
+  /* font-size: 4.5vh; */
+}
+
+.list_text p {
+  margin-bottom: 3%;
+  font-family: Helvetica;
+  font-size: 120%;
+
+}
+
+.list-text > li{
+  margin-top: 20%;
+}
+
+h1 {
+  color: white;
+  font-size: 7vh;
+  font-family: 'Pacifico', cursive;
+  font-weight: normal;
+  margin: 0;
+  margin-bottom: 5%;
+  padding-top: 2%;
+}
+
+.divider {
+  padding-top: 0.2%;
+  margin-bottom: 1%;
+  background-color: black;
+}
+
+.phone_content {
+  margin-right: 2%;
+  margin-top: 2%;
+  font-family: Helvetica, sans-serif;
+  font-size: 4vh;
+  font-weight: lighter;
+  text-align: center;
+}
+
+#number {
+  color: #AB131D;
+  font-family: Arial Black;
+  font-weight: bold;
+  font-size: 10vh;
+  padding-top: 2%;
+  padding-bottom: 4%;
+  text-shadow: 1px 1px 6px #B5B7B8;
+}
+
+.moreinfo {
+  padding-top: 3%;
+  margin-left: 0%;
+  font-size: 3vh;
+}
+
+.logo img {
+  margin-top: 3%;
+  margin-left: 5%;
+  margin-bottom: 2%;
+}
+
+.no_underline {
+  text-decoration: none;
+}
+
+.moreinfo a {
+  color: turquoise;
+}
+
+.counties {
+  padding-top: 2%;
+  margin-left: 4%;
+  margin-right: 5%;
+}
+
+.list_text {
+  margin-right: 0;
+}
+
+.space {
+  padding-top: 2%;
+}
+
+
+@media only screen and (min-width: 600px){
+
+
+  .overall_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+  }
+
+  .header_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../images/AutoSightBanner2.jpg");
+    /* background-image: url("../images/AutoSightBanner.jpg"); */
+    background-size: cover;
+    padding-bottom: 2vh;
+  }
+  .content_container {
+    display: flex;
+    flex-direction: column;/* font-size: 4vh; */
+    /* align-items: flex-end; */
+    margin-right: 2%;
+    margin-top: 0;
+    margin-left: 2%;
+  }
+
+  p {
+    color: white;
+    font-family: Helvetica;
+  }
+
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .sunroof_pics {
+    width: 80vh;
+    height: 80vh;
+    /* margin-top: -10; */
+    margin-left: 15%;
+  }
+
+  .list_text {
+    margin-left: 4%;
+  }
+
+  ul, .list_text p{
+    padding-left: 5%;
+    font-family: sans-serif;
+    font-family: Helvetica;
+    font-weight: lighter;
+  }
+
+  li {
+    margin-bottom: 1%;
+    color: #AB131D;
+    font-family: Arial Black;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #B5B7B8;
+    font-size: 180%;
+    /* font-size: 4.5vh; */
+  }
+
+  .list_text p {
+    margin-bottom: 3%;
+    font-family: Helvetica;
+    font-size: 120%;
+
+  }
+
+  .list-text > li{
+    margin-top: 20%;
+  }
+
+  h1 {
+    color: white;
+    font-size: 7vh;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+  .divider {
+    padding-top: 0.2%;
+    margin-bottom: 1%;
+    background-color: black;
+  }
+
+  .phone_content {
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: Helvetica, sans-serif;
+    font-size: 4vh;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  #number {
+    color: #AB131D;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 10vh;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    text-shadow: 1px 1px 6px #B5B7B8;
+  }
+
+  .moreinfo {
+    padding-top: 3%;
+    margin-left: 0%;
+    font-size: 3vh;
+  }
+
+  .logo img {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  .no_underline {
+    text-decoration: none;
+  }
+
+  .moreinfo a {
+    color: turquoise;
+  }
+
+  .counties {
+    padding-top: 2%;
+    margin-left: 4%;
+    margin-right: 5%;
+  }
+
+  .list_text {
+    margin-right: 0;
+  }
+
+  .space {
+    padding-top: 2%;
+  }
+
+}
+
+@media only screen and (min-width: 768px){
+  .overall_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    /* margin-left: 2%;
+    margin-right: 2%; */
+  }
+
+  .header_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url("../images/AutoSightBanner2.jpg");
+    /* background-image: url("../images/AutoSightBanner.jpg"); */
+    background-size: cover;
+    padding-bottom: 0;
+  }
+
+  .content_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* font-size: 4vh; */
+    align-items: flex-end;
+    margin-right: 0;
+    margin-top: 0;
+  }
+
+  p {
+    color: white;
+    font-family: Helvetica;
+  }
+
+  .logo {
+    width: 50%;
+    height: 50%;
+  }
+
+  .sunroof_pics {
+    width: 80vh;
+    height: 80vh;
+    /* margin-top: -10; */
+    margin-left: 15%;
+    margin-right: 5%;
+    /* padding-right: 20%; */
+  }
+
+  .list_text {
+    margin-left: 4%;
+  }
+
+  ul, .list_text p{
+    padding-left: 5%;
+    font-family: sans-serif;
+    font-family: Helvetica;
+    font-weight: lighter;
+  }
+
+  li {
+    margin-bottom: 1%;
+    color: #AB131D;
+    font-family: Arial Black;
+    font-weight: bold;
+    text-shadow: 0px 0px 3px #B5B7B8;
+    font-size: 180%;
+    /* font-size: 4.5vh; */
+  }
+
+  .list_text p {
+    margin-bottom: 3%;
+    font-family: Helvetica;
+    font-size: 120%;
+
+  }
+
+  .list-text > li{
+    margin-top: 20%;
+  }
+
+  h1 {
+    color: white;
+    /* font-size: 7vh; */
+    font-size: 4vw;
+    font-family: 'Pacifico', cursive;
+    font-weight: normal;
+    margin: 0;
+    margin-bottom: 10%;
+  }
+
+  .divider {
+    padding-top: 0.2%;
+    margin-bottom: 1%;
+    background-color: black;
+  }
+
+  .phone_content {
+    margin-right: 2%;
+    margin-top: 2%;
+    font-family: Helvetica, sans-serif;
+    font-size: 4vh;
+    font-weight: lighter;
+    text-align: center;
+  }
+
+  #number {
+    color: #AB131D;
+    font-family: Arial Black;
+    font-weight: bold;
+    font-size: 10vh;
+    padding-top: 2%;
+    padding-bottom: 4%;
+    text-shadow: 1px 1px 6px #B5B7B8;
+  }
+
+  .moreinfo {
+    padding-top: 3%;
+    margin-left: 0%;
+    font-size: 3vh;
+  }
+
+  .logo img {
+    margin-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 2%;
+  }
+
+  .no_underline {
+    text-decoration: none;
+  }
+
+  .moreinfo a {
+    color: turquoise;
+  }
+
+  .counties {
+    padding-top: 2%;
+    margin-left: 4%;
+    margin-right: 5%;
+  }
+
+  .list_text {
+    margin-right: 0;
+  }
+
+  .space {
+    padding-top: 2%;
+  }
+}
+
+@media only screen and (min-width: 1024px){
+
+}
